@@ -1,3 +1,3 @@
 # spring-cloud-settings
-专门用来存放配置文件的仓库，将来使用spring-cloud-server来读取这个仓库的配置文件并提供rest服务
-使用git提交配置文件的变更，并不需要重启spring-cloud-server，并可以通过spring-boot的强大配置覆盖来决定使用哪一个配置文件。
+专门用来存放配置文件的仓库，将来使用cloud-config-server来读取这个仓库的配置文件并提供rest服务
+使用git提交配置文件的变更，并不需要重启cloud-config-server，并可以通过spring-boot的强大配置覆盖来决定使用哪一个配置文件。
